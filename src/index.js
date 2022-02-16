@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './app/App';
 import reportWebVitals from './reportWebVitals';
+
+
+let nav = {
+  "main" : '/index',
+  "about" : "/about",
+  "price" : "/buy/price"
+};
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App title = "My site is The BEST" hero= "hello hello" nav={nav}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
