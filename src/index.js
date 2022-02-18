@@ -13,7 +13,7 @@ let nav = {
 
 ReactDOM.render(
   <React.StrictMode>
-    <App title = "My site is The BEST" hero= "hello hello" nav={nav}/>
+    <App title = "My site is The BEST" hero= "hello hello" nav={nav} text="hi mahai"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
